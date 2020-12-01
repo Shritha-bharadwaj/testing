@@ -1,4 +1,4 @@
 abc
 <?php
-echo readfile("test.txt");
+echo readfile("index.php");
 ?> 
