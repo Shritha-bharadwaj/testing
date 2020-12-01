@@ -1,4 +1,4 @@
 testing
-< <?php
+<?php
 echo readfile("index.php");
 ?> 
